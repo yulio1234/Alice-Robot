@@ -81,7 +81,6 @@ public class GossipLoad {
 			try {
 				outputStream.close();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -89,7 +88,6 @@ public class GossipLoad {
 			try {
 				inputStream.close();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -97,7 +95,6 @@ public class GossipLoad {
 			try {
 				bufReader.close();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
@@ -108,7 +105,6 @@ public class GossipLoad {
 		try {
 			gossip.load();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
